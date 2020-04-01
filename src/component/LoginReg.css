@@ -1,0 +1,10 @@
+body {
+  position: inherit;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 198, 255, 0.4),
+      rgba(159, 236, 16, 0.8)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2n-EafRTPhxIP_vEkGrx0VHtfOIcXCx-IddyHsgnENRqWSDWG");
+  background-size: cover;
+}

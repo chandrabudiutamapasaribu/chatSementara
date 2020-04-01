@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-active {
+  border-bottom: 2px solid #ffffff;
+  transition: 0.3s;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#ul-navbar li:hover {
+  border-bottom: 2px solid #ffffff;
+  transition: 0.3s;
+}
+
+/* background */
+.bg-gradient {
+  position: relative;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 198, 255, 0.4),
+      rgba(159, 236, 16, 0.8)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT2n-EafRTPhxIP_vEkGrx0VHtfOIcXCx-IddyHsgnENRqWSDWG");
+  background-size: cover;
+}
+
+.bg-gray {
+  background: #f5f6ff;
+}
+
+/* navbar */
+
+.text-title {
+  font-family: sans-serif;
+  letter-spacing: 0.5rem;
+}
+
+.img-logo {
+  display: none;
+}
+
+/* button */
+
+.nav-sign .link {
+  position: relative;
+  color: #ffffff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav-sign .link:hover {
+  background: #ffffff;
+  color: #0072ff;
+}
+.about {
+  background-image: linear-gradient(
+    to right,
+    rgba(17, 161, 41, 0.4),
+    rgba(159, 236, 16, 0.8),
+    rgba(76, 245, 76, 0.8),
+    rgba(66, 131, 128, 0.8)
+  );
+  font-size: 30px;
+}
+.fitur {
+  background-image: linear-gradient(
+    to right,
+    rgba(17, 161, 41, 0.4),
+    rgba(92, 128, 27, 0.8),
+    rgba(49, 172, 49, 0.8),
+    rgba(66, 131, 128, 0.8)
+  );
+  font-size: 30px;
+}
+.kontak {
+  background-image: linear-gradient(to right, rgba(159, 236, 16, 0.8));
+}
